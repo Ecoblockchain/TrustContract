@@ -1,0 +1,10 @@
+Ontology { 
+    “http://blockchainos.org/remittance”
+    Import "http://blockchainos.org/ontologies/remittance-v1.owl"
+    Individual type="remittance" { 
+    	Sender addr="1KrGTeQs55sf1zyTWWR4Y5qhe9Zxg2ftpy"
+    	Receiver addr="1FZNMuL8HUmf9TLdac62K4cGGpD2JEwnax" balance=1000 unit=BOS
+    	Receiver addr="1F1tAaz5x1HUXrCNLbtMDqcw6o5GNn4xqX" balance=500 unit=BOS
+    }
+	Operator name="remitance" addr=“http://blockchainos.org/tal-repo/remittance-v1.tal”
+}

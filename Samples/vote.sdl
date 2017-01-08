@@ -1,0 +1,11 @@
+// Sample voting using SDLang format
+Ontology { 
+    "http://blockchainos.org/vote"
+    Import "http://blockchainos.org/ontologies/vote-v1.owl"
+    Individual type="vote" { 
+    	Voter addr="1KrGTeQs55sf1zyTWWR4Y5qhe9Zxg2ftpy"
+		Proposal title="BOS Across The World" id="2C499D3D-F5E2-40D8-BFDF-C0A612E8E2AB"
+		balot "positive" //{positive, negative, neutral}
+	}
+	Operator name="vote" addr="http://blockchainos.org/tal-repo/vote-v1.tal"
+}

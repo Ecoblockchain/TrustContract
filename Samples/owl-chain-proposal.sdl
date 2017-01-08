@@ -1,0 +1,39 @@
+// Sample Proposal using SDLang format
+Ontology { 
+    "http://blockchainos.org/proposal"
+    Import "http://blockchainos.org/ontologies/proposal-v1.owl"
+    Individual type="proposal" { 
+		Title "BOS Across The World"
+		Owner "BOS-in-USA"
+		Monthly-amount	180 unit="BOS"
+		Completed-payments "no payments occurred yet (3 month remaining)"
+		Payment-start-end	start=04-01-2017 end=19-04-2017 added-on=08-12-2016
+		Please-vote-within	days=19
+		Final-voting-deadline in-month=1
+		Will-be-funded No // This proposal needs additional 232 Yes votes to become funded.
+
+		Proposal-description {
+
+			Description "BOS Across the World -- Weekly Show Interviewing Businesses and People"
+
+			Overview "This is a 3-month pilot proposal to seek out real business owners, both conventional and unconventional, and conduct face-to-face interviews with them regarding the use of BOS and how it could be used."
+
+			Scope "The scope of this project is not only to communicate the value of BOS to real people in real businesses, but it allows BOS developers and community to follow along and watch first-hand, how average people interact with BOS. Real-world interviews will be an invaluable feedback-loop to help eliminate or lessen the barriers to entry, while promoting BOS in creative and fun ways."
+
+			Deliverables {
+				"1. One show per week for 12 weeks. Tuesdays, delivered to various social media channels like Youtube, and shared on Twitter."
+				"2. Weekly frequent updates on the BOS.org proposal forum."
+			}
+
+			Schedule {
+				"Each week, filming Wednesday to Friday (A+B footage)"
+				"Each week, Saturday to Monday (Post, editing)"
+				"Each week, Tuesday (Upload to social media channels)"
+				"12 episodes in total"	
+			}
+
+			Note "All audio-video, lighting and editing equipment is owned by me, and provided at no charge."
+		}
+	}
+	Operator name="proposal" addr="http://blockchainos.org/tal-repo/proposal-v1.tal"
+}
